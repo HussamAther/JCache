@@ -47,9 +47,8 @@ public class JCache
     /// <param name="item">Item to add.</param>
     /// <param name="evictedCacheItem">Least recently used item evicted from the cache.</param>
     /// <returns></returns>
-    public bool AddItem(string key, object item, out object evictedCacheItem)
+    public void AddItem(string key, object item, out object evictedCacheItem)
     {
         _internalCacheService.AddCacheItem(key, item, out evictedCacheItem);
-        return true;
     }
 }

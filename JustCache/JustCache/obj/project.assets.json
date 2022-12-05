@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hussa\\OneDrive\\Documents\\JustCache\\JustCache\\JustCache.csproj",
+      "projectUniqueName": "C:\\Users\\hussa\\OneDrive\\Documents\\JCache\\JustCache\\JustCache\\JustCache.csproj",
       "projectName": "JustCache",
-      "projectPath": "C:\\Users\\hussa\\OneDrive\\Documents\\JustCache\\JustCache\\JustCache.csproj",
+      "projectPath": "C:\\Users\\hussa\\OneDrive\\Documents\\JCache\\JustCache\\JustCache\\JustCache.csproj",
       "packagesPath": "C:\\Users\\hussa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hussa\\OneDrive\\Documents\\JustCache\\JustCache\\obj\\",
+      "outputPath": "C:\\Users\\hussa\\OneDrive\\Documents\\JCache\\JustCache\\JustCache\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hussa\\AppData\\Roaming\\NuGet\\NuGet.Config",

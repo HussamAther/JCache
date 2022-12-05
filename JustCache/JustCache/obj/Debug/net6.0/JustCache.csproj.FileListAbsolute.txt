@@ -10,3 +10,15 @@ C:\Users\hussa\OneDrive\Documents\JustCache\JustCache\obj\Debug\net6.0\JustCache
 C:\Users\hussa\OneDrive\Documents\JustCache\JustCache\obj\Debug\net6.0\refint\JustCache.dll
 C:\Users\hussa\OneDrive\Documents\JustCache\JustCache\obj\Debug\net6.0\JustCache.pdb
 C:\Users\hussa\OneDrive\Documents\JustCache\JustCache\obj\Debug\net6.0\ref\JustCache.dll
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\bin\Debug\net6.0\JustCache.deps.json
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\bin\Debug\net6.0\JustCache.dll
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\bin\Debug\net6.0\JustCache.pdb
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\obj\Debug\net6.0\JustCache.csproj.AssemblyReference.cache
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\obj\Debug\net6.0\JustCache.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\obj\Debug\net6.0\JustCache.AssemblyInfoInputs.cache
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\obj\Debug\net6.0\JustCache.AssemblyInfo.cs
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\obj\Debug\net6.0\JustCache.csproj.CoreCompileInputs.cache
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\obj\Debug\net6.0\JustCache.dll
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\obj\Debug\net6.0\refint\JustCache.dll
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\obj\Debug\net6.0\JustCache.pdb
+C:\Users\hussa\OneDrive\Documents\JCache\JustCache\JustCache\obj\Debug\net6.0\ref\JustCache.dll

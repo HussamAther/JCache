@@ -46,38 +46,37 @@ public class JCacheTests
     public void AddItem_ItemAdded_ItemCanBeReturned()
     {
         string key = "testkey1";
-        bool added = JCache.Instance.AddItem(key,"testkey1", out object evictedFromCache);
-        Assert.True(added);
+        JCache.Instance.AddItem(key,"testkey1", out object evictedFromCache);
         bool returned = JCache.Instance.GetItem(key, out object cacheItem);
         Assert.True(returned);
         Assert.NotNull(cacheItem);
         Assert.Equal("testkey1", cacheItem);
     }
 
-    [Fact]
-    public void PerformanceCheck()
-    {
-        var dict = new Dictionary<string, int>();
-        var sw = new Stopwatch();
-        sw.Start();
-        JCache.Instance.Capacity = 1000000;
-        for (int i = 0; i < 1000000; i++)
-        {
-            string key = i.ToString();
-            dict.Add(i.ToString(),i);
-            bool added = JCache.Instance.AddItem(key, i, out _);
-            Assert.True(added);
-        }
-
-
-        foreach (var kvp in dict)
-        {
-            bool returned = JCache.Instance.GetItem(kvp.Key, out object value);
-            Assert.True(returned);
-        }
-        
-        sw.Stop();
-
-        _testOutputHelper.WriteLine(sw.ElapsedMilliseconds.ToString());
-    }
+    // [Fact]
+    // public void PerformanceCheck()
+    // {
+    //     var dict = new Dictionary<string, int>();
+    //     var sw = new Stopwatch();
+    //     sw.Start();
+    //     JCache.Instance.Capacity = 1000000;
+    //     for (int i = 0; i < 1000000; i++)
+    //     {
+    //         string key = i.ToString();
+    //         dict.Add(i.ToString(),i);
+    //         JCache.Instance.AddItem(key, i, out object evictedCacheItem);
+    //         Assert.Null(evictedCacheItem);
+    //     }
+    //
+    //
+    //     foreach (var kvp in dict)
+    //     {
+    //         bool returned = JCache.Instance.GetItem(kvp.Key, out object value);
+    //         Assert.True(returned);
+    //     }
+    //     
+    //     sw.Stop();
+    //
+    //     _testOutputHelper.WriteLine(sw.ElapsedMilliseconds.ToString());
+    // }
 }

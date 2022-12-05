@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7/mOVTFeU+0iIyJ6/chlxNzEuu00CEfIuSQXyMdQoVL8lhb9sGLeAyYcCpBX7zDYBnjOzaRx0xYOAeSbulEcCA==",
+  "dgSpecHash": "Gbotz6UOq2mQhVeezhEPkZ3UsESYOkz0xFlBwTqZAjtIUL1TkCXNaZtU4n/N49jdEBfCTrwOfMMeFzj4rX8pxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hussa\\OneDrive\\Documents\\JustCache\\JustCache.Tests\\JustCache.Tests.csproj",
+  "projectFilePath": "C:\\Users\\hussa\\OneDrive\\Documents\\JCache\\JustCache\\JustCache.Tests\\JustCache.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hussa\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\hussa\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
